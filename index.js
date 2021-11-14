@@ -99,7 +99,7 @@ ${support}
     );
         function createNewFile(fileName, data)
         {
-            fs.writeFile(`ReadMe.md`, data, (error) => {
+            fs.writeFile(`New_ReadMe.md`, data, (error) => {
                 if(error)
                 {
                     console.log(error)
