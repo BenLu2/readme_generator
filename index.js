@@ -97,7 +97,7 @@ inquirer
     );
         function createNewFile(fileName, data)
         {
-            fs.writeFile(`./s{fileName.toLowerCase().split(' ').join(' ')}.md`, data, (error) => {
+            fs.writeFile(`ReadMe.md`, data, (error) => {
                 if(error)
                 {
                     console.log(error)
