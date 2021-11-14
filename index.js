@@ -59,37 +59,39 @@ inquirer
                 support,
                 username,
                 email,
-                Linkedin,
-
-
-                
+                Linkedin,    
             }
         ) =>
         {
-            const template = `# ${title}
+            //generate the new readme file with the input from node.js
+            let template = `# ${title}
             
-            *[description](#description)
-            *[userstory](#userstory)
-            *[install](#install)
-            *[support](#support)
-            
-            #Description
-            ${description}
+# Description
+*Description about this project:*
+**${description}**
 
-            ##User Story
-            ${userstory}
+## User Story
+---
+*As a..., I want..., so that...* <br>
+${userstory}
+---
 
-            ##Install
-            ${install}
+## Installation
+---
+*Steps required to install project and how to get the development environment running:* <br>
+${install}
+---
 
-            ##Get Support
-            ${support}
+## Get Support
+---
+*You can get support via the following method:* <br>
+${support}
+---
 
-            #Contact Me
-            *Github :${username}
-            *E-mail :${email}
-            *Linkedin :${Linkedin}
-            `;
+# Contact Me
+*Github :${username}* <br>
+*E-mail :${email}* <br>
+*Linkedin :${Linkedin}*`;
 
             //Create the new readMe by using the fs
             createNewFile(title, template);
