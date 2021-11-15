@@ -1,23 +1,26 @@
-# 1
+# ReadMe Generator
             
 # Description
-*Description about this project:*
-**2**
+For this project, the readme generator will work if the user input the data such as description, user story, installation instruction and how to get support, by run node.js from 
+the terminal, it will automatically generator the new readMe file 
 
 ## User Story
 ---
 *As a..., I want..., so that...*
-3
+As a developer, I want to run node index.js from the terminal, so that the new readMe file can be created.
+When I run node index.js, it will have a few questions that I need to fill
+When I answer those questions, the answers will be include in the new readMe file
+When I complete the questions, a notification saying "your readme file has been successfully created" will appear
 ---
 
 ## Install
 *Steps required to install project and how to get the development environment running:*
-4
+Simply run node index.js from the folder
 
 ## Get Support
-5
+You can contact me via email, see contact information below
 
 # Contact Me
-*Github :6* <br>
-*E-mail :7* <br>
-*Linkedin :8*
+*Github : https://github.com/BenLu2/readme_generator <br>
+*E-mail :ben.lv@gmail.com* <br>
+*Linkedin :https://www.linkedin.com/in/yudong-lu/*
