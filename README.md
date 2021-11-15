@@ -21,6 +21,13 @@ Simply run node index.js from the folder
 You can contact me via email, see contact information below
 
 # Contact Me
+
 *Github : https://github.com/BenLu2/readme_generator <br>
 *E-mail :ben.lv@gmail.com* <br>
 *Linkedin :https://www.linkedin.com/in/yudong-lu/*
+
+# Demo
+
+
+https://user-images.githubusercontent.com/90216349/141739851-df0d600b-ed20-4057-bb3f-c875da2eb274.mp4
+
